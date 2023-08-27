@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dream-cakes/static/css/main.7acaea2f.css",
+    "main.js": "/dream-cakes/static/js/main.d5992858.js",
+    "index.html": "/dream-cakes/index.html",
+    "main.7acaea2f.css.map": "/dream-cakes/static/css/main.7acaea2f.css.map",
+    "main.d5992858.js.map": "/dream-cakes/static/js/main.d5992858.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.d5992858.js"
+  ]
+}
