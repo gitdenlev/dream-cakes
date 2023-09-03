@@ -2,23 +2,21 @@
   display: flex;
   gap: 30px;
   list-style: none;
-
-  li {
-    padding: 15px;
-    border-radius: 20px;
-    font-size: 24px;
-    cursor: pointer;
-    border: 1px solid #f1f1f1;
-    font-size: 36px;
-    display: flex;
-    transition: all 0.3s ease-in-out;
-
-    &:hover,
-    &:focus,
-    &:target {
-      background: linear-gradient(45deg, #f5e1bc, #fff1e6);
-      transition: all 5s linear;
-    }
-  }
 }
 
+.sort_list li {
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 34px;
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+  display: flex;
+  transition: all .3s ease-in-out;
+  opacity: 0.7;
+
+  &:hover,&:focus,&:active,&:target {
+    background-color: #f2f2f2;
+    transition: all 0.3s linear;
+    color: pink;
+  }
+}

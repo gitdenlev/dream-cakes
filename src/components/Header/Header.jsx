@@ -8,7 +8,7 @@ const Header = () => {
       <header className={styles.header}>
         <nav className={styles.nav}>
           <div className={styles.logo}>
-            <a href="https">
+            <a href="/dream-cakes">
               <img
                 src="https://i.ibb.co/ykT0vqZ/free-icon-cake-slice-2682343.png"
                 alt="logo"
@@ -18,7 +18,7 @@ const Header = () => {
           </div>
           <span className={styles.title}>Dream Cakes</span>
           <div className={styles.container_cart}>
-            <a href="https" className={styles.shopping_cart}>
+            <a href="/cart" className={styles.shopping_cart}>
               <FaShoppingCart size={40} />
             </a>
             <span>{0} грн</span>

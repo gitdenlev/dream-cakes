@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
 
@@ -38,18 +39,11 @@
 }
 
 .list {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  /* Три столбца в строке */
-  gap: 50px;
-  /* Отступы между элементами */
-  list-style: none;
-  /* Убираем маркеры списка */
-  padding: 0;
-  /* Убираем отступы у списка */
-  margin: 0;
-  /* Убираем отступы у списка */
-  list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    list-style: none;
 }
 
 .container_cost {
@@ -100,31 +94,7 @@
   font-size: 16px;
   margin-left: 20px;
 }
-// Container about statisctics
-.statistics_container {
-  p {
-    font-size: 17px;
-    width: 300px;
-  }
-  table {
-    border-collapse: collapse;
-    width: 25%;
-    padding-right: 20px;
-  }
 
-  th,
-  td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-}
-
-// Link kkcal
 
 
 
@@ -152,6 +122,64 @@
 }
 
 
-@media screen and (max-width:860px) {
+
+
+
+
+
+
+
+
+
+
+
+// Modal window
+.nutrient_table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
   
 }
+
+.nutrient-table th,
+.nutrient-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.nutrient-table th {
+  background: linear-gradient(45deg, #f5e1bc, #fff1e6);
+  color: black;
+  font-weight: bold;
+}
+
+.nutrient-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.nutrient-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+.close_icon {
+  float: right;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
