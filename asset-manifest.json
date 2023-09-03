@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dream-cakes/static/css/main.6160309b.css",
-    "main.js": "/dream-cakes/static/js/main.0925948d.js",
+    "main.js": "/dream-cakes/static/js/main.8fcbe5d3.js",
     "index.html": "/dream-cakes/index.html",
     "main.6160309b.css.map": "/dream-cakes/static/css/main.6160309b.css.map",
-    "main.0925948d.js.map": "/dream-cakes/static/js/main.0925948d.js.map"
+    "main.8fcbe5d3.js.map": "/dream-cakes/static/js/main.8fcbe5d3.js.map"
   },
   "entrypoints": [
     "static/css/main.6160309b.css",
-    "static/js/main.0925948d.js"
+    "static/js/main.8fcbe5d3.js"
   ]
 }
