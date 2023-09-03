@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CakesItem from '../../components/CakesItem/CakesItem';
 import Header from '../../components/Header/Header';
-import Sort from '../../components/Sort/Sort';
 import { BarLoader } from 'react-spinners';
 
 function Home() {
@@ -40,7 +39,6 @@ function Home() {
       ) : (
         <>
           <Header />
-          {/* <Sort /> */}
           <CakesItem />
         </>
       )}
